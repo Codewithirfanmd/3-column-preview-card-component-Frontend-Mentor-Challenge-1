@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+a {
+    font-family: "Lexend Deca", serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    flex-basis: 100%;
+}
+
+.card p {
+    font-family: "Lexend Deca", serif;
+    opacity: 0.6;
+    line-height: 1.75;
+    margin-bottom: 5rem;
+}
+
+.card h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", serif;
+}
+
+
+.card a {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-top: auto;
+    /* margin-right: auto; */
+    align-self: flex-start;
+    background-color: white;
+}
+
+.card img {
+    height: 40px;
+    width: 64px;
+}
+
+.card-container {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    /* margin-inline: auto; */
+    max-width: 910px;
+    /* margin: 1.5rem; */
+    color: white;
+    margin: auto;
+}
+
+.orange-card {
+    background-color: #E28525;
+}
+
+.orange-card a {
+    color: #E28525;
+}
+
+.orange-card a:hover {
+    background-color: #E28525;
+    color: inherit;
+}
+
+.green-card {
+    background-color: #016972;
+}
+
+.green-card a {
+    
+    color: #016972;
+}
+
+.green-card a:hover {
+    background-color: #016972;
+    color: inherit;
+}
+
+.darkgreen-card {
+    background-color: #00403F;
+}
+
+.darkgreen-card a {
+    color: #00403F;
+}
+
+.darkgreen-card a:hover {
+    background-color: #00403F;
+    color: inherit;
+}
+
+@media (max-width: 970px) {
+    .card-container {
+        flex-direction: column;
+        max-width: 480px;
+    }
+}
